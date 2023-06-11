@@ -1,0 +1,1148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Tanja Medic | UX Portfolio | Case Studies</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="UX portfolio of Tanja Medic - E-commerce shop case study">
+    <meta name="keywords" content="user research, research methods, small business e-commerce shop, demographics, charts, illustrations, competitive overview, usability guidelines, design strategy, personas, jobs to be done, ideation, color palette, style guide, sitemap, wireframes, prototypes, final e-commerce version">
+    <meta name="author" content="Tanja Medic">
+    <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/project-nav.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="path/to/chartjs/dist/Chart.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#00aba9">
+    <meta name="theme-color" content="#ffffff">
+</head>
+
+<body id="page-top">
+    <div class="container" role="navigation">
+        <div class="fixed-top flex-row">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light" data-toggle="affix" id="first"> <a class="navbar-brand hover-to-show-link" href="index.html"><img class="img-fluid" src="illustrations/tm.png" alt="Tanja Medic logo"><span class="hover-to-show align-middle"> Tanja Medic </span></a> <button class="navbar-toggler" type="button"
+                    data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+                <div class="collapse navbar-collapse"
+                    id="navbarTogglerDemo02">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item"> <a class="nav-link" href="index.html">Home</a> </li>
+                        <li class="nav-item active"> <a class="nav-link" href="project.html">E-commerce shop</a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="#contact">Contact</a> </li>
+                    </ul>
+                </div>
+            </nav>
+            <nav class="navbar navbar-light bg-light navbar-expand justify-content-center" id="second">
+                <ul class="nav navbar-nav">
+                    <li class="nav-item dropdown"><a class="nav-link dropdown-toggle " href="project1.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="fas fa-search"></i> <span class="d-none d-lg-inline">Research</span></a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown"> <a class="dropdown-item" href="#ecommerce_background">Background</a> <a class="dropdown-item" href="#ecommerce_research">Methods</a> <a class="dropdown-item" href="#ecommerce_demographics">Demographics</a> <a class="dropdown-item"
+                                href="#ecommerce_competitive">Competitive overview</a> <a class="dropdown-item" href="#ecommerce_usability">Usability guidelines</a></div>
+                    </li>
+                    <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="project1.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="fas fa-user-tag"></i> <span class="d-none d-lg-inline">Design</span></a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown"> <a class="dropdown-item" href="#ecommerce_strategy">Strategy</a> <a class="dropdown-item" href="#ecommerce_persona1">Persona I</a> <a class="dropdown-item" href="#ecommerce_persona2">Persona II</a> <a class="dropdown-item" href="#ecommerce_persona3">Persona III</a></div>
+                    </li>
+                    <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="project1.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-lightbulb"></i> <span class="d-none d-lg-inline">Ideation</span></a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown"> <a class="dropdown-item" href="#ecommerce_ideation">Methods</a> <a class="dropdown-item" href="#ecommerce_palette">Color palette</a> <a class="dropdown-item" href="#ecommerce_style">Style guide</a> <a class="dropdown-item" href="#ecommerce_sitemap">Sitemap</a>                            <a class="dropdown-item" href="#ecommerce_wireframes">Wireframes</a></div>
+                    </li>
+                    <li class="nav-item"><a href="#ecommerce_prototypes" class="nav-link"><i class="fab fa-adobe"></i> <span class="d-none d-lg-inline"> Prototypes</span></a> </li>
+                    <li class="nav-item"><a href="#ecommerce_final" class="nav-link"><i class="fas fa-laptop-code"></i><span class="d-none d-lg-inline"> Final version</span></a> </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    </div>
+    <section class="project-bg page-title-alt position-relative project-bg-color" id="ecommerce_shop" data-aos="zoom-out" data-aos-duration="1500" data-aos-easing="ease-in-out-cubic">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-10 col-lg-8">
+                    <h5 class="text-shadow">SMALL BUSINESS</h5>
+                    <h1 class="text-shadow">E-commerce Shop</h1>
+                </div>
+            </div>
+        </div>
+        <div class="d-none d-lg-block"><img src="illustrations/project1/pink-dots.png" class="bg-shape-2" data-aos="fade-up" data-aos-duration="2000" data-aos-easing="ease-in-out-cubic" data-aos-delay="1000"></div>
+        <div class="d-none d-lg-block"><img src="illustrations/project1/soybeans-project.png" class="bg-shape-7" data-aos="zoom-in" data-aos-duration="2000" data-aos-easing="ease-in-out-cubic"></div>
+        <div class="d-none d-md-block d-lg-none"><img src="illustrations/project1/soybeans-medium.png" class="bg-shape-17" data-aos="zoom-in" data-aos-duration="2000" data-aos-easing="ease-in-out-cubic"></div>
+        <div class="d-none d-md-block"><img src="illustrations/project1/pink-dots.png" class="bg-shape-5" data-aos="fade-up" data-aos-duration="2000" data-aos-easing="ease-in-out-cubic" data-aos-delay="1000"></div>
+        <div class="d-none d-md-block"><img src="illustrations/project1/shopping-bag-dots.png" class="bg-shape-9" data-aos="fade-up" data-aos-duration="2000" data-aos-easing="ease-in-out-cubic" data-aos-delay="1000"></div>
+        <div class="d-md-none"><img src="illustrations/project1/soybeanssmall-project.png" class="bg-shape-15" data-aos="zoom-in" data-aos-duration="2000" data-aos-easing="ease-in-out-cubic" data-aos-delay="500"></div>
+        <div class="d-md-none"><img src="illustrations/project1/pink-dots.png" class="bg-shape-11" data-aos="fade-up" data-aos-duration="2000" data-aos-easing="ease-in-out-cubic" data-aos-delay="1000"></div>
+    </section>
+    <section class="section pt-5" id="ecommerce_background">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 offset-lg-3 col-md-8 offset-md-2">
+                    <h3 class="mt-50 mb-30" data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease">Sales dwindling</h3>
+                    <p data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease">Bare Kollections sells eco-friendly, USA made products inspired by minimalist design. The shoppers can now only buy their scented candles on Amazon.</p>
+                    <p data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease">Their Web site was never fully equipped to handle all facets of shopping experience, and it is getting harder for micro businesses, like Bare Kollections to compete with large enterprises on Amazon. On top of that, suppliers don’t
+                        seem to value micro businesses and one woman enterprises.</p>
+                    <h3 class="mb-30" data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease">Suppliers failing</h3>
+                    <p data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease">That was particularly obvious after several suppliers failed to make their scented candles according to specifications, causing the business to lose customers and money. It was particularly embarrassing when unsatisfied customers left
+                        bad reviews on Amazon for the first time, complaining that one of the scented candles smells like Dove soap, although it was supposed to be a mixture scent of sweet mint, basil and lime.</p>
+                    <h3 class="mb-30" data-aos="fade-up"
+                        data-aos-duration="1500" data-aos-easing="ease">Owner taking action</h3>
+                    <p data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease">The owner decided to take matters into her own hands and come up with a plan to make her business venture more stable and reliable. She is testing new suppliers, and developing new scents for candles and making plans to expand the
+                        product line.</p>
+                    <p data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease">In addition, she hired a designer to develop a new e-commerce Web site that will take into account all the business and customer needs.</p>
+                    <p data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease">The new Web site should incorporate all the sales channels such as Amazon and Instagram. It should accommodate customers no matter how they end up on the Web site. It should also enable the owner to easily update the site, add new
+                        products, and handle the re-stocking process.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="container" id="ecommerce_research">
+        <div class="row">
+            <div class="col-lg-10 offset-lg-2 col-sm-12">
+                <h2 class="text-left" data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease">Understand</h2>
+                <h5 class="text-left" data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease" data-aos-delay="500">USERS, BUSINESS NEEDS, TECH ASPECT...</h5>
+            </div>
+        </div>
+    </div>
+    <section class="section pt-5 page-title-alt">
+        <div class="container">
+            <div class="row">
+                <ul class="col-sm-12 col-md-10 offset-md-1 col-lg-6 offset-lg-3 box-shadow" data-aos="zoom-in" data-aos-duration="3000" data-aos-easing="ease-in-out-cubic" data-aos-delay="1000"> <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="illustrations/project1/pink-dots.png" class="bg-shape-13" data-aos="fade-up" data-aos-duration="3000" data-aos-easing="ease" data-aos-delay="1000"> <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="
+                        data-src="illustrations/project1/shopping-bag-dots.png" class="bg-shape-14" data-aos="fade-up" data-aos-duration="3000" data-aos-easing="ease" data-aos-delay="1000">
+                    <div class="list-group list-group-flush rounded mb-20">
+                        <li class="list-group-item">
+                            <h3 class="text-center mt-20 text-boja">Methods used</h3>
+                        </li>
+                        <li class="list-group-item text-boja">Interviews<i class="fa fa-check fa-2x float-right" aria-hidden="true"></i></li>
+                        <li class="list-group-item text-boja"><i class="fa fa-check fa-2x float-right" aria-hidden="true"></i> Surveys</li>
+                        <li class="list-group-item text-boja"><i class="fa fa-check fa-2x float-right" aria-hidden="true"></i> Observations</li>
+                        <li class="list-group-item rounded text-boja"><i class="fa fa-check fa-2x float-right" aria-hidden="true"></i> Product testing on the fly</li>
+                    </div>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section class="section bg-how" id="ecommerce_how_research_methods">
+        <h3 class="text-center mt-20 mb-50 text-boja" data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease">How</h3>
+        <div class="container mb-100">
+            <div class="col-sm-12 col-md-8 offset-md-2 col-lg-6 offset-lg-3">
+                <div class="accordion" id="accordionExample" data-aos="zoom-in" data-aos-duration="3000" data-aos-easing="ease-in-out-cubic" data-aos-delay="1000">
+                    <div class="card mb-20 active">
+                        <div class="card-header tab-shadow" id="headingOne">
+                            <h3 class="mb-0"><button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"> Owner</button> </h3>
+                        </div>
+                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                            <div class="card-body"> I interviewed a small business owner several times via online tools to understand the background, her expectations, frustrations, and desired outcomes. </div>
+                        </div>
+                    </div>
+                    <div class="card mb-20">
+                        <div class="card-header tab-shadow" id="headingTwo">
+                            <h3 class="mb-0"><button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"> End users</button> </h3>
+                        </div>
+                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                            <div class="card-body"> I walked into establishments where I felt comfortable to interview potential users. In addition to interviews, I used survey questions and sample product testing. I was pretty successful in finding out about their various backgrounds,
+                                personal shopping habits, frustrations with the technology, and their desired outcomes when it comes to interactions with customer services. </div>
+                        </div>
+                    </div>
+                    <div class="card mb-20">
+                        <div class="card-header tab-shadow" id="headingThree">
+                            <h3 class="mb-0"><button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree"> Online community</button> </h3>
+                        </div>
+                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                            <div class="card-body"> I also reached out to online scented candle lovers community - community forums and bloggers. They were happy to share about their preferences, expectations, and frustrations. They even volunteered to test the scented candles.
+                                I reached out to meditation practitioners too. According to them, they use candles to help with focus during meditation. For this purpose, any candle can be used, so I didn’t persist in finding out more when it comes to
+                                this population. </div>
+                        </div>
+                    </div>
+                    <div class="card mb-20">
+                        <div class="card-header tab-shadow" id="headingFour">
+                            <h3 class="mb-0"><button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour"> Observations</button> </h3>
+                        </div>
+                        <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                            <div class="card-body"> I observed some users to understand how they go about searching for products online, how they decide to land on certain e-commerce shops, and how they shop on mobile and other devices. It was curious that all users I encountered
+                                pretty much expected shops to adhere to already established e-commerce design patterns. They were frustrated with deviations. It seems that users pretty much caught up with the user experience guidelines, while businesses
+                                still offer poor user experiences to them. </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="fdb-block" id="ecommerce_demographics">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h3 class="text-center mb-30 text-boja" data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease">Demographics</h3>
+                    <h5 class="text-center text-boja space-down" data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease" data-aos-delay="500">Interviews, survey, product testing...</h5>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row text-center justify-content-sm-center" data-aos="zoom-in" data-aos-duration="3000" data-aos-easing="ease-in-out-cubic">
+                <div class="col-sm-12 col-md-10 col-lg-6 m-auto" data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease">
+                    <div class="fdb-box fdb-touch">
+                        <h5 class="text-boja">Race</h5><canvas id="myRaceChart" width="400" height="400"></canvas></div>
+                </div>
+                <div class="col-sm-12 col-md-10 col-lg-6 m-auto mt-150" data-aos="zoom-in" data-aos-duration="3000" data-aos-easing="ease-in-out-cubic" data-aos-delay="1000">
+                    <div class="fdb-box fdb-touch">
+                        <h5 class="text-boja">Ethnicity</h5><canvas id="myEthnicityChart" width="400" height="400"></canvas></div>
+                </div>
+                <div class="col-sm-12 col-md-10 col-lg-6 m-auto" data-aos="zoom-in" data-aos-duration="3000" data-aos-easing="ease-in-out-cubic">
+                    <div class="fdb-box fdb-touch">
+                        <h5 class="text-boja">Gender</h5><canvas id="myGenderChart" width="400" height="400"></canvas></div>
+                </div>
+                <div class="col-sm-12 col-md-10 col-lg-6 m-auto mt-150" data-aos="zoom-in" data-aos-duration="3000" data-aos-easing="ease-in-out-cubic" data-aos-delay="1000">
+                    <div class="fdb-box fdb-touch">
+                        <h5 class="text-boja">Age</h5><canvas id="myAgeChart" width="400" height="400"></canvas></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section pt-5 usability-2-bg" id="ecommerce_competitive">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 offset-lg-3 col-md-8 offset-md-2">
+                    <h3 class="text-boja mb-40" data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease">Competitive overview</h3>
+                    <p class="mb-40" data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease">According to many reports, the candle market is on fire, and there are many players competing for the same market. However Bare Kollections has a competitive advantage over them because they are selling soy made candles. </p>
+                    <h5 class="text-boja mb-20"
+                        data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease">Healthy option</h5>
+                    <p data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease">Soy candles are made from soybeans, a natural, renewable source grown in many regions by local farmers.</p>
+                    <p data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease">Paraffin candles are made from petroleum, which is a nonrenewable source that contains carcinogenic substances. These substances may be released into the air while burning and are harmful to health.</p>
+                    <p data-aos="fade-up" data-aos-duration="1500"
+                        data-aos-easing="ease">In 2009, a study by South Carolina State University found that burning paraffin wax candles releases harmful fumes (toluene and benzene) which is linked to asthma and lung cancer.</p>
+                    <p data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease">This finding was also accepted by various environmental and health organizations.</p>
+                    <h5 class="text-boja mt-20 mb-20" data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease">Cleaner burning</h5>
+                    <p data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease">A candle made from soy wax burns cleaner with little soot released as the candle burns.
+                        <p>
+                            <p data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease">The soy candle may accumulate some black soot on the jar, but the amount is much less than paraffin candles.</p>
+                            <p data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease">Paraffin candles often create a significant amount of black soot that collects on the jar, as well as on your walls and other surfaces of the home.</p>
+                            <h5 class="text-boja mt-20 mb-20" data-aos="fade-up" data-aos-duration="1500"
+                                data-aos-easing="ease">Better scent</h5>
+                            <p data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease">A soy candle works well for holding onto the scent from essential oils. Because it burns more slowly, the scent is gradually released.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section pt-5 usability-bg" id="ecommerce_usability">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 offset-lg-3 col-md-8 offset-md-2">
+                    <h3 class="text-boja mb-40" data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease">Usability guidelines</h3>
+                    <p class="mb-40" data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease">The home page should effectively introduce the site, explain what it sells and how it is different from competitors. For e-commerce Web sites, it should expose the main product offering and enable users to start shopping.</p>
+                    <p data-aos="fade-up"
+                        data-aos-duration="1500" data-aos-easing="ease">Items on the home page should represent what’s inside the store, without clutter. Product categories, navigational options, and labels must be clear and make sense to users. Users need to understand quickly each category in order to
+                        make a shopping decision.</p>
+                    <div class="float-right d-none d-md-block"><img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="illustrations/project1/pink-dots.png" class="bg-shape-13" data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease" data-aos-delay="1000"></div>
+                    <ul
+                        class="col-sm-12 col-md-12 col-lg-12" data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease">
+                        <div class="list-group list-group-flush">
+                            <li class="list-group-item">
+                                <h3 class="text-center mt-20 text-boja">Minimum</h3>
+                            </li>
+                            <li class="list-group-item">Concise names with important and meaningful product characteristics</li>
+                            <li class="list-group-item">Large photos</li>
+                            <li class="list-group-item">Available styles, colors and other options</li>
+                            <li class="list-group-item">Price</li>
+                            <li class="list-group-item">Precise product descriptions</li>
+                        </div>
+                        </ul>
+                        <div class="float-right d-none d-md-block"><img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="illustrations/project1/shopping-bag-dots.png" class="bg-shape-14" data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease" data-aos-delay="1000"></div>
+                        <ul
+                            class="col-sm-12 col-md-12 col-lg-12" data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease" data-aos-delay="500">
+                            <div class="list-group list-group-flush">
+                                <li class="list-group-item">
+                                    <h3 class="text-center mt-20 text-boja">Nice to have</h3>
+                                </li>
+                                <li class="list-group-item ">Customer ratings</li>
+                                <li class="list-group-item">Indications for popular, new or on sale items</li>
+                                <li class="list-group-item">Availability</li>
+                                <li class="list-group-item">A quick-view tool to see a brief product description and other details without loading a new page</li>
+                                <li class="list-group-item">Alternative products available</li>
+                            </div>
+                            </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section pt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 offset-lg-3 col-md-8 offset-md-2">
+                    <h3 class="text-boja mb-40" data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease">What do users expect from e-commerce?</h3>
+                    <p class="mb-40" data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease">Over the years, users have acquired a new type of behavior when it comes to online shopping and have developed higher expectations of their experience on e-commerce sites, Nielsen Norman concluded with their research. </p>
+                    <h5 class="text-boja mb-20"
+                        data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease">Convenience</h5>
+                    <p data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease">Users expect to shop whenever and wherever they are, regardless of the device or channel they use. They expect the physical and online worlds to blend seamlessly.</p>
+                    <p data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease">Users also expect accurate and reliable inventory information for nearby stores. They like capabilities to schedule recurring orders, so they don't have to worry about running out of a product they often use.</p>
+                    <h5 class="text-boja mb-20"
+                        data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease">Speed</h5>
+                    <p data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease">Users come back to the sites that satisfy their instant gratification and immediate expectations; they expect and appreciate one-click ordering, seamless and effortless workflow, and fast shipping.</p>
+                    <p data-aos="fade-up" data-aos-duration="1500"
+                        data-aos-easing="ease">Shoppers also expect the ability to go to a physical store to view and pick up when they need the product quickly. They also expect the ability to return the product to a physical store when they want to avoid the shipping charges.
+                        <p>
+                            <h5 class="text-boja mb-20" data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease">Experience</h5>
+                            <p data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease">Today’s users expect added elements of surprise and delight, such as impressive and unique packaging, inspirational content, and digital experiences that are extensions of physical ones.</p>
+                            <h5 class="text-boja mb-20" data-aos="fade-up"
+                                data-aos-duration="1500" data-aos-easing="ease">Assurance</h5>
+                            <p data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease">Users want to feel safe on e-commerce sites. They expect clear communication about data protection and security measures in place.
+                                <p>
+                                    <h5 class="text-boja mb-20" data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease">Accuracy</h5>
+                                    <p data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease">Users want to feel in control and they don’t like surprises, and missing and inaccurate information. They trust retailers that provide accurate, and high-quality information. That includes precision in geolocation information,
+                                        inventory data, order-status messages, pickup time frames, pricing, arrival dates, and user reviews.</p>
+                                    <h5 class="text-boja mb-20" data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease">Options</h5>
+                                    <p data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease">Users now expect e-commerce sites to give them options for almost anything they can do.</p>
+                                    <p data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease">That includes free trial period and full refund, a variety of payment methods, and customer service help available on multiple channels.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="container" id="ecommerce_strategy">
+        <div class="row">
+            <div class="col-lg-10 offset-lg-2 col-sm-12">
+                <h2 class="text-left" data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease">Define</h2>
+                <h5 class="text-left" data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease" data-aos-delay="400">DESIGN STRATEGY AND FOCUS...</h5>
+            </div>
+        </div>
+    </div>
+    <section class="section bg-define">
+        <div class="container mb-100">
+            <div class="col-sm-12 col-md-8 offset-md-2 col-lg-6 offset-lg-3">
+                <div class="accordion" id="accordionExample2" data-aos="zoom-in" data-aos-duration="3000" data-aos-easing="ease-in-out-cubic">
+                    <div class="card mb-20 active">
+                        <div class="card-header tab-shadow" id="headingFive">
+                            <h3 class="mb-0"><button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive"> Define the problem </button> </h3>
+                        </div>
+                        <div id="collapseFive" class="collapse show" aria-labelledby="headingFive" data-parent="#accordionExample2">
+                            <div class="card-body">
+                                <ul class="col-sm-12 col-md-12 col-lg-12">
+                                    <h6 class="text-boja">How?</h6>
+                                    <li class="list-group-item ">Personas</li>
+                                    <li class="list-group-item"> Jobs to be done</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card mb-20">
+                        <div class="card-header tab-shadow" id="headingSix">
+                            <h3 class="mb-0"><button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix"> User Experience</button> </h3>
+                        </div>
+                        <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample2">
+                            <div class="card-body">
+                                <ul class="col-sm-12 col-md-12 col-lg-12">
+                                    <h6 class="text-boja">Who are we designing for?</h6>
+                                    <li class="list-group-item ">Small business owner</li>
+                                    <li class="list-group-item text-left"> Scented candle lover</li>
+                                    <li class="list-group-item text-left"> Pragmatic shopper</li>
+                                    <li class="list-group-item text-left"> Shared value shopper</li>
+                                    <li class="list-group-item text-left"> The bargain hunter</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card mb-20">
+                        <div class="card-header tab-shadow" id="headingSeven">
+                            <h3 class="mb-0"><button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven"> Design Principles</button> </h3>
+                        </div>
+                        <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordionExample2">
+                            <div class="card-body">
+                                <ul class="col-sm-12 col-md-12 col-lg-12">
+                                    <h6 class="text-boja">How do we want users to feel about our shop?</h6>
+                                    <li class="list-group-item ">Sophisticated</li>
+                                    <li class="list-group-item"> Trustworthy</li>
+                                    <li class="list-group-item"> Flawless</li>
+                                    <li class="list-group-item"> Safe</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card mb-20">
+                        <div class="card-header tab-shadow" id="headingEight">
+                            <h3 class="mb-0"><button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight"> Tech Capacity</button> </h3>
+                        </div>
+                        <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#accordionExample2">
+                            <div class="card-body"> We decided to use Shopify as our e-commerce platform. That will solve many problems that the owner now has with the WordPress platform. </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="bg-magenta align-items-center d-flex justify-content-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-sm-12">
+                    <h2 class="text-center" data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease">Persona I</h2>
+                    <h5 class="text-center mt-20" data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease" data-aos-delay="400">BACKGROUND, BEHAVIOR, PSYCHOLOGY...</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section id="ecommerce_persona1">
+        <div class="container-fluid p-l-0 p-r-0">
+            <div class="row no-gutters align-items-center d-flex justify-content-between" data-aos="zoom-in" data-aos-duration="3000" data-aos-easing="ease-in-out-cubic">
+                <div class="persona-content col-xl-6 col-lg-12 col-md-12 col-sm-12">
+                    <h6 class="text-boja">MICRO BUSINESS OWNER</h6>
+                    <h4 class="text-boja">Tessy Wang</h4>
+                    <p>Tessy loves scented candles. That’s how she came up with the idea of running an online business selling scented candles. But not any type of candles. She wanted to build a product that would reflect her values. Soy made candles, hand
+                        poured in the USA in small batches, with a distinctive fragrance.
+                        <p>
+                            <p>She also wanted to build a community around the product. That’s why she connected with candle lovers on Instagram. They participated in giving their ideas and testing her products. Tessy came up with three fragrances - Serenity,
+                                Boldness and Clarity. </p>
+                </div>
+                <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12"><img class="img-fluid" src="illustrations/project1/project-candle.png" alt="Illustration of three candles burning with soybeans in front of them."></div>
+            </div>
+            <div class="row no-gutters align-items-center d-flex justify-content-between" data-aos="zoom-in" data-aos-duration="3000" data-aos-easing="ease-in-out-cubic">
+                <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12"><img class="img-fluid" src="illustrations/project1/project-box.png" alt="Illustration of three minimalist brown boxes made of recycled material with white strip on the top."></div>
+                <div
+                    class="persona-content col-xl-6 col-lg-12 col-md-12 col-sm-12">
+                    <h6 class="text-boja">PRODUCT DESIGN</h6>
+                    <h4 class="text-boja">Scented candles</h4>
+                    <p>Tessy follows the minimalist movement in design - reducing the products to their simplest form or essential nature. That’s how, she says, she designed the glass container and the signature box. </p>
+                    <p>But that’s not all. She and her community are eco-conscious. That’s why her signature boxes are made of recycled paper, and her labels from recycled coffee bags.</p>
+            </div>
+        </div>
+        <div class="row no-gutters align-items-center d-flex justify-content-between" data-aos="zoom-in" data-aos-duration="3000" data-aos-easing="ease-in-out-cubic">
+            <div class="persona-content col-xl-6 col-lg-12 col-md-12 col-sm-12">
+                <h6 class="text-boja">SALE CHANNELS</h6>
+                <h4 class="text-boja">E-commerce</h4>
+                <p>Tessy started her business on Amazon. Pretty soon, she needed to make a Web site that would be a one stop shop for her Amazon and Instagram accounts.
+                    <p>
+                        <p>She found two freelancers on Fiver.</p>
+                        <p>“It was a disaster,” says Tessy. “They over promised and under delivered.”</p>
+                        <p>She didn’t want to use WordPress as a CMS, but they convinced her it was the best choice. They didn’t know anything about design, so she had to step in and make design decisions. They seem not to know about development either,
+                            since they didn’t implement many functionalities. Her Web site to this day is not a finished product.</p>
+            </div>
+            <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12"><img class="img-fluid" src="illustrations/project1/negativereviews.png" alt="Illustration of tired small business owner slump in a chair with her head on a computer keayboard.">                </div>
+        </div>
+        <div class="row no-gutters align-items-center d-flex justify-content-between" data-aos="zoom-in" data-aos-duration="3000" data-aos-easing="ease-in-out-cubic">
+            <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12"><img class="img-fluid" src="illustrations/project1/project-negative-reviews.png" alt="Illustration of three candles burning in the middle. Angry customers all around."></div>
+            <div
+                class="persona-content col-xl-6 col-lg-12 col-md-12 col-sm-12">
+                <h6 class="text-boja">SUPPLIERS</h6>
+                <h4 class="text-boja">Negative reviews</h4>
+                <p>But that wasn’t the end to her troubles. Her suppliers didn’t send her the product for final testing, so she had a rude awakening on Amazon. Her glowing 5 star reviews suddenly went to a 1 star reviews. Her customers complained that her
+                    scented candles smelled like a Dove soap or hygienic products.</p>
+                <p>When she finally got the product for testing, she realized that suppliers replaced the fragrance.</p>
+                <p>As a result, she is now out of stock. On top of that, she has to order boxes from China, although she was adamant about using only US made supplies.</p>
+        </div>
+        </div>
+        <div class="row no-gutters align-items-center d-flex justify-content-between" data-aos="zoom-in" data-aos-duration="3000" data-aos-easing="ease-in-out-cubic">
+            <div class="persona-content col-xl-6">
+                <h6 class="text-boja">PSYCHOLOGY</h6>
+                <h4 class="text-boja">Stressful life event</h4>
+                <p>Tessy is a young mother. Her baby needs constant attention and her business troubles started affecting her wellbeing.
+                    <p>
+                        <p>But she is not giving up yet. She decided to finally have an e-commerce Web site, that would help her automate her business, and handle all concerns on the go. She also found another supplier and hope to build a lasting relationship
+                            with them.</p>
+            </div>
+            <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12"><img class="img-fluid" src="illustrations/project1/majkastress.png" alt="Illustration of a mother holding a baby in her arms with a thinking bubble above her head - one candle burning in the thinking bubble.">                </div>
+        </div>
+        </div>
+    </section>
+    <div class="bg-magenta align-items-center d-flex justify-content-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-sm-12">
+                    <h2 class="text-center" data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease">Jobs to be done</h2>
+                    <h5 class="text-center mt-20" data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease" data-aos-delay="400">HIRING THE PRODUCT TO ACCOMPLISH THE GOAL</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="section jobs-bg">
+        <div class="container">
+            <div class="row justify-content-around">
+                <div class="card col-lg-6 col-md-8 col-sm-12 box-shadow text-center mt-100" data-aos="zoom-in" data-aos-duration="2000" data-aos-easing="ease-in-out-cubic"> <span class="fas fa-quote-left fa-3x text-boja pt-20"></span>
+                    <p class="text-left jobs">It would be great if I could rely on my suppliers to deliver my fragrances according to specifications, so that I can satisfy my customers.</p>
+                </div>
+                <div class="card jobs-cont col-lg-4 col-md-8 col-sm-12 box-shadow text-center mt-100" data-aos="zoom-in" data-aos-duration="2000" data-aos-easing="ease-in-out-cubic"><span class="card fas fa-quote-left fa-3x text-boja pt-20"></span>
+                    <p class="text-left jobs">It would be great if I could establish a trusting relationship with my suppliers, so that I can re-stock my online store on time.</p>
+                </div>
+                <div class="card col-lg-6 col-md-8 col-sm-12 pt-3 box-shadow text-center mt-100" data-aos="zoom-in" data-aos-duration="2000" data-aos-easing="ease-in-out-cubic"><span class="fas fa-quote-left fa-3x text-boja pt-20"></span>
+                    <p class="text-left jobs">It would be great if I could establish a trusting relationship with my suppliers, so that I can deliver my products on time.</p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row justify-content-around">
+                <div class="card col-lg-6 col-md-8 col-sm-12 box-shadow text-center mt-100" data-aos="zoom-in" data-aos-duration="2000" data-aos-easing="ease-in-out-cubic"><span class="fas fa-quote-left fa-3x text-boja pt-20"></span>
+                    <p class="text-left jobs">It would be great if I could automate my online business, so that I can concentrate on new fragrances and other eco conscious products.</p>
+                </div>
+                <div class="card jobs-cont col-lg-4 col-md-8 col-sm-12 box-shadow text-center mt-100" data-aos="zoom-in" data-aos-duration="2000" data-aos-easing="ease-in-out-cubic"><span class="fas fa-quote-left fa-3x text-boja pt-20"></span>
+                    <p class="text-left jobs">It would be great if I could automate my online business, so that I don’t have to rely on Amazon to sell my products.</p>
+                </div>
+                <div class="card jobs-cont col-lg-6 col-md-8 col-sm-12 box-shadow text-center mt-100" data-aos="zoom-in" data-aos-duration="2000" data-aos-easing="ease-in-out-cubic"><span class="fas fa-quote-left fa-3x text-boja pt-20"></span>
+                    <p class="text-left jobs">It would be great if the design of all of my products has the unified brand presence, so that I can distinguish myself from competitors.</p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row justify-content-around">
+                <div class="card jobs-cont col-lg-6 col-md-8 col-sm-12 box-shadow text-center mt-100" data-aos="zoom-in" data-aos-duration="2000" data-aos-easing="ease-in-out-cubic"><span class="fas fa-quote-left fa-3x text-boja pt-20"></span>
+                    <p class="text-left jobs">It would be great if I could communicate with my customers regularly, so that I can develop a trusting relationship with them.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="motivation-bg section">
+        <div class="container">
+            <div class="fdb-block">
+                <div class="row text-center justify-content-between">
+                    <div class="col-sm-12 col-md-12 col-lg-6" data-aos="zoom-in" data-aos-duration="3000" data-aos-easing="ease-in-out-cubic">
+                        <div class="fdb-box fdb-touch">
+                            <h5 class="text-boja text-center">Motivation</h5><canvas id="myMotivationChart" width="400" height="400"></canvas></div>
+                    </div>
+                    <div class="col-sm-12 col-md-12 col-lg-6 m-auto mt-150" data-aos="zoom-in" data-aos-duration="3000" data-aos-easing="ease-in-out-cubic" data-aos-delay="1000">
+                        <div class="fdb-box fdb-touch">
+                            <h5 class="text-boja text-center">Tech Attitude</h5><canvas id="myTechChart" width="400" height="400"></canvas></div>
+                    </div>
+                    <div class="col-sm-12 col-md-12 col-lg-6 m-auto" data-aos="zoom-in" data-aos-duration="3000" data-aos-easing="ease-in-out-cubic">
+                        <div class="fdb-box fdb-touch"><i class="fas fa-bullseye fa-4x text-boja"></i>
+                            <h3 class="text-boja text-center pb-20">Goals</h3>
+                            <ul class="col-sm-12 col-md-12 col-lg-12">
+                                <div class="list-group list-group-flush text-left">
+                                    <li class="list-group-item ">Automate the online business</li>
+                                    <li class="list-group-item"> Build a trusting relationship with suppliers</li>
+                                    <li class="list-group-item"> Create a lasting bond with customers</li>
+                                    <li class="list-group-item"> Add more products to the collection</li>
+                                    <li class="list-group-item"> Add more collections to the brand</li>
+                                    <li class="list-group-item"> Update the Web site easily</li>
+                                    <li class="list-group-item"> Post to all sales channels easily and quickly</li>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-12 col-lg-6 m-auto mt-80" data-aos="zoom-in" data-aos-duration="3000" data-aos-easing="ease-in-out-cubic" data-aos-delay="1000">
+                        <div class="fdb-box fdb-touch"><i class="far fa-lightbulb fa-4x text-boja"></i>
+                            <h3 class="text-boja text-center">Solution</h3>
+                            <h6 class="text-boja text-center">E-COMMERCE WEB SITE</h6>
+                            <ul class="col-sm-12 col-md-12 col-lg-12">
+                                <div class="list-group list-group-flush text-left">
+                                    <li class="list-group-item"> Reflect the brand accurately</li>
+                                    <li class="list-group-item"> Incorporate all the necessary e-commerce functionalities</li>
+                                    <li class="list-group-item"> Connect the Amazon and Instagram sales channels</li>
+                                    <li class="list-group-item"> Handle stocking and inventory data</li>
+                                    <li class="list-group-item"> Incorporate easy to use and flexible admin side.</li>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="bg-magenta align-items-center d-flex justify-content-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-sm-12">
+                    <h2 class="text-center" data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease">Persona II</h2>
+                    <h5 class="text-center mt-20" data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease" data-aos-delay="400">BACKGROUND, BEHAVIOR, PSYCHOLOGY...</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section id="ecommerce_persona2">
+        <div class="container-fluid p-l-0 p-r-0">
+            <div class="row no-gutters align-items-center d-flex justify-content-between" data-aos="zoom-in" data-aos-duration="3000" data-aos-easing="ease-in-out-cubic">
+                <div class="persona-content col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                    <h6 class="text-boja">SCENTED CANDLES LOVER</h6>
+                    <h4 class="text-boja">Billy McKenzie</h4>
+                    <p>Billy McKenzie loves scented candles. She buys a different fragrance for each room.</p>
+                    <p>She places mint and lavender in the bedroom, an evergreen and woodsy candle in the living room, and amber and vanilla in the kitchen.
+                        <p>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12"><img class="img-fluid" src="illustrations/project1/candlesinrooms.png" alt="Illustrations of three candles; one surrounded by lavander flowers, one surrounded by evergreen leaves, one surrounded with amber and vanilla."></div>
+            </div>
+            <div class="row no-gutters align-items-center d-flex justify-content-between" data-aos="zoom-in" data-aos-duration="3000" data-aos-easing="ease-in-out-cubic">
+                <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12"><img class="img-fluid" src="illustrations/project1/stockpile.png" alt="Illustration of different kind of candles stockpile on shelves."></div>
+                <div class="persona-content col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                    <h6 class="text-boja">RE-ORDERING</h6>
+                    <h4 class="text-boja">Scented candles</h4>
+                    <p>Billy has a stock pile of scented candles at home, so she can never run out of them. She has the favorites, but she is always open to new scent experiences.</p>
+                </div>
+            </div>
+            <div class="row no-gutters align-items-center d-flex justify-content-between" data-aos="zoom-in" data-aos-duration="3000" data-aos-easing="ease-in-out-cubic">
+                <div class="persona-content col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                    <h6 class="text-boja">SHOPPING ONLINE</h6>
+                    <h4 class="text-boja">Decision making</h4>
+                    <p>When purchasing online, Billy either uses a laptop or a mobile device. She chooses candles based on a product maker, scent notes, price, and shipping charges.
+                        <p>
+                            <p>She gets frustrated when she can’t find products she loves online.</p>
+                            <p>“I hate when I can’t find my favorite candles in stock.” </p>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12"><img class="img-fluid" src="illustrations/project1/frustrated_shopper.png" alt="Illustration of a dissapointed women looking at the e-commerce shop and a scented candle product out of stock.">                    </div>
+            </div>
+            <div class="row no-gutters align-items-center d-flex justify-content-between" data-aos="zoom-in" data-aos-duration="3000" data-aos-easing="ease-in-out-cubic">
+                <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12"><a href="#"><img class="img-fluid" src="illustrations/project1/smelling_candle.png" alt="Illustration of a woman in a shop smelling a candle in her hand."></a> </div>
+                <div
+                    class="persona-content col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                    <h6 class="text-boja">STORE SHOPPING</h6>
+                    <h4 class="text-boja">Decision making</h4>
+                    <p>When purchasing in store, Billy chooses candles based on a cold sniff and price. Wherever she shops, she enjoys ease of purchase, a variety of scent choices, and reasonable pricing. </p>
+            </div>
+        </div>
+        <div class="row no-gutters align-items-center d-flex justify-content-between" data-aos="zoom-in" data-aos-duration="3000" data-aos-easing="ease-in-out-cubic">
+            <div class="persona-content col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                <h6 class="text-boja">PSYCHOLOGY</h6>
+                <h4 class="text-boja">Shares knowledge online</h4>
+                <p>Billy is a tech savvy lady, who publishes posts about scented candles on her blog daily, but she doesn’t go to any social media. She uses e-mail for everyday communication. Her following is fairly big.
+                    <p>
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12"><img class="img-fluid" src="illustrations/project1/blogging_shopper.png" alt="Illustration of a woman blogging about scented candles."> </div>
+        </div>
+        </div>
+    </section>
+    <div class="bg-magenta align-items-center d-flex justify-content-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-sm-12">
+                    <h2 class="text-center" data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease">Jobs to be done</h2>
+                    <h5 class="text-center mt-20" data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease" data-aos-delay="400">HIRING THE PRODUCT TO ACCOMPLISH THE GOAL</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="section jobs-bg">
+        <div class="container">
+            <div class="row justify-content-around">
+                <div class="card col-lg-6 col-md-8 col-sm-12 box-shadow text-center mt-100" data-aos="zoom-in" data-aos-duration="2000" data-aos-easing="ease-in-out-cubic"><span class="fas fa-quote-left fa-3x text-boja pt-20"></span>
+                    <p class="text-left jobs">It would be great if I could always find the candles that I love available online, so that I can easily replenish my stock at home.</p>
+                </div>
+                <div class="card jobs-cont col-lg-4 col-md-8 col-sm-12 box-shadow text-center mt-100" data-aos="zoom-in" data-aos-duration="2000" data-aos-easing="ease-in-out-cubic"><span class="fas fa-quote-left fa-3x text-boja pt-20"></span>
+                    <p class="text-left jobs">It would be great, if I could buy scented candles easily, so that I don’t have to waste my time online.</p>
+                </div>
+                <div class="card col-lg-6 col-md-8 col-sm-12 box-shadow text-center mt-100" data-aos="zoom-in" data-aos-duration="2000" data-aos-easing="ease-in-out-cubic"><span class="fas fa-quote-left fa-3x text-boja pt-20"></span>
+                    <p class="text-left jobs">It would be great, if candles are priced reasonably, so that I can afford them.</p>
+                </div>
+            </div>
+            <div class="row justify-content-around">
+                <div class="card col-lg-4 col-md-8 col-sm-12 box-shadow text-center mt-100" data-aos="zoom-in" data-aos-duration="2000" data-aos-easing="ease-in-out-cubic"><span class="fas fa-quote-left fa-3x text-boja pt-20"></span>
+                    <p class="text-left jobs">It would be great, if shipping costs are reasonable, so that I can afford ordering online.</p>
+                </div>
+                <div class="card jobs-cont col-lg-4 col-md-8 col-sm-12 box-shadow text-center mt-100" data-aos="zoom-in" data-aos-duration="2000" data-aos-easing="ease-in-out-cubic"><span class="fas fa-quote-left fa-3x text-boja pt-20"></span>
+                    <p class="text-left jobs">It would be great, if I can find a variety of scented candles online in one place, so that I don’t have to waste my time.</p>
+                </div>
+                <div class="card jobs-cont col-lg-6 col-md-8 col-sm-12 box-shadow text-center mt-100" data-aos="zoom-in" data-aos-duration="2000" data-aos-easing="ease-in-out-cubic"><span class="fas fa-quote-left fa-3x text-boja pt-20 "></span>
+                    <p class="text-left jobs">It would be great, if I can find a variety of candles with precise scent notes, so that I can made my purchasing decision easily.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="motivation-bg section">
+        <div class="container">
+            <div class="fdb-block">
+                <div class="row text-center justify-content-between">
+                    <div class="col-sm-12 col-md-12 col-lg-6 m-auto" data-aos="zoom-in" data-aos-duration="3000" data-aos-easing="ease-in-out-cubic">
+                        <div class="fdb-box fdb-touch">
+                            <h5 class="text-boja text-center">Motivation</h5><canvas id="myMotivationChart2" width="400" height="400"></canvas></div>
+                    </div>
+                    <div class="col-sm-12 col-md-12 col-lg-6 m-auto mt-150" data-aos="zoom-in" data-aos-duration="3000" data-aos-easing="ease-in-out-cubic" data-aos-delay="1000">
+                        <div class="fdb-box fdb-touch">
+                            <h5 class="text-boja text-center">Tech Attitude</h5><canvas id="myTechChart2" width="400" height="400"></canvas> </div>
+                    </div>
+                    <div class="col-sm-12 col-md-12 col-lg-6 m-auto" data-aos="zoom-in" data-aos-duration="3000" data-aos-easing="ease-in-out-cubic">
+                        <div class="fdb-box fdb-touch"><i class="fas fa-bullseye fa-4x text-boja"></i>
+                            <h3 class="text-boja text-center pb-20">Goals</h3>
+                            <ul class="col-sm-12 col-md-12 col-lg-12">
+                                <div class="list-group list-group-flush text-left">
+                                    <li class="list-group-item">To never run out of scented candles in home</li>
+                                    <li class="list-group-item"> To find new scented candles easily</li>
+                                    <li class="list-group-item"> To save money on purchases and shipping</li>
+                                    <li class="list-group-item"> To save time spent on purchasing decisions</li>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-12 col-lg-6 m-auto mt-80" data-aos="zoom-in" data-aos-duration="3000" data-aos-easing="ease-in-out-cubic" data-aos-delay="1000">
+                        <div class="fdb-box fdb-touch"><i class="far fa-lightbulb fa-4x text-boja"></i>
+                            <h3 class="text-boja text-center">Solution</h3>
+                            <h6 class="text-boja text-center">E-COMMERCE WEB SITE</h6>
+                            <ul class="col-sm-12 col-md-12 col-lg-12">
+                                <div class="list-group list-group-flush text-left">
+                                    <li class="list-group-item"> Reliable supplies</li>
+                                    <li class="list-group-item"> Accurate scent descriptions</li>
+                                    <li class="list-group-item"> Accurate pricing</li>
+                                    <li class="list-group-item"> Accurate shipping charges</li>
+                                    <li class="list-group-item"> Easy ordering</li>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <div class="bg-magenta align-items-center d-flex justify-content-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-sm-12">
+                    <h2 class="text-center" data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease">Persona III</h2>
+                    <h5 class="text-center mt-20" data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease" data-aos-delay="400">BACKGROUND, BEHAVIOR, PSYCHOLOGY...</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section id="ecommerce_persona3">
+        <div class="container-fluid p-l-0 p-r-0">
+            <div class="row no-gutters align-items-center d-flex justify-content-between" data-aos="zoom-in" data-aos-duration="3000" data-aos-easing="ease-in-out-cubic">
+                <div class="persona-content col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                    <h6 class="text-boja">PRAGMATIC SHOPPER</h6>
+                    <h4 class="text-boja">Stewart Mankiewitch</h4>
+                    <p>Stewart Mankiewitch doesn’t care about scented candles. He buys them only as a necessity. And he would rather avoid shopping if he could.</p>
+                    <p>“It's a waste of time,” he said.
+                        <p>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12"><img class="img-fluid" src="illustrations/project1/so_what.png" alt="Illustration of a frustrated man in a shop."></div>
+            </div>
+            <div class="row no-gutters align-items-center d-flex justify-content-between" data-aos="zoom-in" data-aos-duration="3000" data-aos-easing="ease-in-out-cubic">
+                <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12"><img class="img-fluid" src="illustrations/project1/security.png" alt="Illustration of a thief trying to break into a computer."></div>
+                <div class="persona-content col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                    <h6 class="text-boja">ONLINE SECURITY</h6>
+                    <h4 class="text-boja">Lack of trust</h4>
+                    <p>Unfortunately, he doesn’t believe that retailers care about online security, although he is an avid technology user. He goes to Facebook and Instagram to keep up with his friends. He is an avid news reader. His favorite online publication
+                        is Guardian. </p>
+                </div>
+            </div>
+            <div class="row no-gutters align-items-center d-flex justify-content-between" data-aos="zoom-in" data-aos-duration="3000" data-aos-easing="ease-in-out-cubic">
+                <div class="persona-content col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                    <h6 class="text-boja">UNFULLFILLED NEED</h6>
+                    <h4 class="text-boja">Decision making</h4>
+                    <p>Stewart is very busy with his work. He works as a certified trainer in a gym. That’s why he cherishes his time at home. Sometimes his flat has the uncomfortable musty odor, so he uses scented candles to combat the odor. He prefers
+                        scents that remind him of cleanliness and purification.
+                        <p>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12"><img class="img-fluid" src="illustrations/project1/gym.png" alt="Illustration of a trainer in a gym with weight in both hands and treadmill behind him."> </div>
+            </div>
+            <div class="row no-gutters align-items-center d-flex justify-content-between" data-aos="zoom-in" data-aos-duration="3000" data-aos-easing="ease-in-out-cubic">
+                <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12"><a href="#"><img class="img-fluid" src="illustrations/project1/mobile_hand.png" alt="Illustration of a male hand with a mobile phone in it - the interface shows a scented candle and buy product button."></a>                    </div>
+                <div class="persona-content col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                    <h6 class="text-boja">SHOPPING</h6>
+                    <h4 class="text-boja">Decision making</h4>
+                    <p>When shopping, he first checks the nearby stores on his mobile phone to see if the product he needs is available. If he finds the right product nearby, he goes to the store to purchase the product. </p>
+                </div>
+            </div>
+            <div class="row no-gutters align-items-center d-flex justify-content-between" data-aos="zoom-in" data-aos-duration="3000" data-aos-easing="ease-in-out-cubic">
+                <div class="persona-content col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                    <h6 class="text-boja">PSYCHOLOGY</h6>
+                    <h4 class="text-boja">Can't wait</h4>
+                    <p>Most of the time, he gets frustrated because he can’t find what he needs online. And when he finds what he needs, he gets frustrated in store because of the long checkout lines. And he hates it when someone tries to cut in line in
+                        front of him.
+                        <p>
+                            <p>“Over my dead body,” he said. “I have to intervene to remind them of their place in line. I just have to.” </p>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12"><img class="img-fluid" src="illustrations/project1/checkout.png" alt="Illustration of an angry man standing in front of bunch of people in line in a store."> </div>
+            </div>
+        </div>
+    </section>
+    <div class="bg-magenta align-items-center d-flex justify-content-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-sm-12">
+                    <h2 class="text-center" data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease">Jobs to be done</h2>
+                    <h5 class="text-center mt-20" data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease" data-aos-delay="400">HIRING THE PRODUCT TO ACCOMPLISH THE GOAL</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="section jobs-bg">
+        <div class="container">
+            <div class="row justify-content-around">
+                <div class="card col-lg-5 col-md-8 col-sm-12 box-shadow text-center mt-100" data-aos="zoom-in" data-aos-duration="2000" data-aos-easing="ease-in-out-cubic"> <span class="fas fa-quote-left fa-3x text-boja pt-20"></span>
+                    <p class="text-left jobs">It would be great if I could find an e-commerce Web site that takes security extra-seriously, so that I can finally purchase products online.</p>
+                </div>
+                <div class="card jobs-cont col-lg-5 col-md-8 col-sm-12 box-shadow text-center mt-100" data-aos="zoom-in" data-aos-duration="2000" data-aos-easing="ease-in-out-cubic" data-aos-delay="1000"> <span class="fas fa-quote-left fa-3x text-boja pt-20 "></span>
+                    <p class="text-left jobs">It would be great if the Web site I visit has detailed inventory info, so that I can have enough information about products.</p>
+                </div>
+            </div>
+            <div class="row justify-content-around">
+                <div class="card col-lg-5 col-md-8 col-sm-12 box-shadow text-center mt-100" data-aos="zoom-in" data-aos-duration="2000" data-aos-easing="ease-in-out-cubic"><span class="fas fa-quote-left fa-3x text-boja pt-20 "></span>
+                    <p class="text-left jobs">It would be great if the Web site recommends some other similar product if I can’t find my first option, so that I don’t have to waste my time searching for another product.</p>
+                </div>
+                <div class="card jobs-cont col-lg-5 col-md-8 col-sm-12 box-shadow text-center mt-100" data-aos="zoom-in" data-aos-duration="2000" data-aos-easing="ease-in-out-cubic" data-aos-delay="1000"><span class="fas fa-quote-left fa-3x text-boja pt-20"></span>
+                    <p class="text-left jobs">If would be great if I can purchase products with one step, so that I don’t feel like shopping.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section motivation-bg">
+        <div class="container">
+            <div class="fdb-block">
+                <div class="row text-center justify-content-between">
+                    <div class="col-sm-12 col-md-12 col-lg-6 m-auto" data-aos="zoom-in" data-aos-duration="3000" data-aos-easing="ease-in-out-cubic">
+                        <div class="fdb-box fdb-touch">
+                            <h5 class="text-boja text-center">Motivation</h5><canvas id="myMotivationChart3" width="400" height="400"></canvas></div>
+                    </div>
+                    <div class="col-sm-12 col-md-12 col-lg-6 m-auto mt-150" data-aos="zoom-in" data-aos-duration="3000" data-aos-easing="ease-in-out-cubic" data-aos-delay="500">
+                        <div class="fdb-box fdb-touch">
+                            <h5 class="text-boja text-center">Tech Attitude</h5><canvas id="myTechChart3" width="400" height="400"></canvas></div>
+                    </div>
+                    <div class="col-sm-12 col-md-12 col-lg-6 m-auto" data-aos="zoom-in" data-aos-duration="3000" data-aos-easing="ease-in-out-cubic">
+                        <div class="fdb-box fdb-touch"><i class="fas fa-bullseye fa-4x text-boja"></i>
+                            <h3 class="text-boja text-center pb-20">Goals</h3>
+                            <ul class="col-sm-12 col-md-12 col-lg-12">
+                                <div class="list-group list-group-flush text-left">
+                                    <li class="list-group-item">To avoid shopping</li>
+                                    <li class="list-group-item">To engage only in secure online transactions</li>
+                                    <li class="list-group-item"> To find a reliable business</li>
+                                    <li class="list-group-item"> To save time</li>
+                                    <li class="list-group-item"> To avoid decision making when purchasing</li>
+                                    <li class="list-group-item"> To avoid dealing with rude people</li>
+                                    <li class="list-group-item"> To get the product quickly</li>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-12 col-lg-6 m-auto mt-80" data-aos="zoom-in" data-aos-duration="3000" data-aos-easing="ease-in-out-cubic" data-aos-delay="500">
+                        <div class="fdb-box fdb-touch"><i class="far fa-lightbulb fa-4x text-boja"></i>
+                            <h3 class="text-boja text-center">Solution</h3>
+                            <h6 class="text-boja text-center">E-COMMERCE WEB SITE</h6>
+                            <ul class="col-sm-12 col-md-12 col-lg-12">
+                                <div class="list-group list-group-flush text-left">
+                                    <li class="list-group-item"> Respectable looking Web site</li>
+                                    <li class="list-group-item"> Top notch online security</li>
+                                    <li class="list-group-item"> Easy flow and navigation</li>
+                                    <li class="list-group-item"> Detailed product descriptions</li>
+                                    <li class="list-group-item"> Detailed inventory information</li>
+                                    <li class="list-group-item"> One-click ordering</li>
+                                    <li class="list-group-item"> Recommended products</li>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="ideate-bg page-title-alt mt-200 section" id="ecommerce_ideation">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 offset-lg-2 col-sm-12">
+                    <h2 class="text-left" data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease">Ideate</h2>
+                    <h5 class="text-left" data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease" data-aos-delay="400">EXPLORE MANY OPTIONS...</h5>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <ul class="card col-sm-12 col-md-10 offset-md-1 col-lg-6 offset-lg-3 box-shadow" data-aos="zoom-in" data-aos-duration="3000" data-aos-easing="ease-in-out-cubic">
+                    <div><img src="illustrations/project1/pink-dots.png" class="bg-shape-13" data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease" data-aos-delay="1000"></div>
+                    <div><img src="illustrations/project1/shopping-bag-dots.png" class="bg-shape-14" data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease" data-aos-delay="1000"></div>
+                    <div
+                        class="list-group list-group-flush rounded mb-20">
+                        <li class="list-group-item">
+                            <h3 class="text-center mt-20 text-boja">How</h3>
+                        </li>
+                        <li class="list-group-item text-boja"><strong>Brainstorming about typography</strong><i class="fa fa-check fa-2x float-right" aria-hidden="true"></i></li>
+                        <li class="list-group-item text-boja"><i class="fa fa-check fa-2x float-right" aria-hidden="true"></i> Experimenting with color palettes</li>
+                        <li class="list-group-item text-boja"><i class="fa fa-check fa-2x float-right" aria-hidden="true"></i> Moodboarding</li>
+            </div>
+            </ul>
+        </div>
+        </div>
+    </section>
+    <section class="section" id="ecommerce_palette">
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 col-md-10 col-sm-12 box-shadow pt-50" data-aos="zoom-in" data-aos-duration="3000" data-aos-easing="ease-in-out-cubic">
+                    <h3 class="text-boja text-center">Color palette</h3>
+                    <?xml version="1.0" encoding="utf-8"?>
+                    <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+                    <div class="d-flex justify-content-center"> <svg version="1.1" id="Level_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="auto" height="auto" viewBox="0 0 1024 768" enable-background="new 0 0 1024 768" xml:space="preserve"> <rect x="46" y="44" fill="#463f3a" width="180" height="631"/> <rect x="238" y="44" fill="#8a817c" width="180" height="631"/> <rect x="430" y="44" fill="#bcb8b1" width="180" height="631"/> <rect x="622" y="44" fill="#f4f3ee" width="180" height="631"/> <rect x="814" y="44" fill="#e0afa0" width="180" height="631"/> </svg>                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section" id="ecommerce_style">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="embed-responsive embed-responsive-4by3"> <iframe class="embed-responsive-item" src="https://company-179360.frontify.com/d/iUwrYE7rfk3T" allowfullscreen></iframe></div>
+            </div>
+            <div class="text-center"> <a class="dotted-link" href="https://company-179360.frontify.com/d/iUwrYE7rfk3T" target="_blank">If you can't see the style guide, visit this link.</a> </div>
+        </div>
+    </section>
+    <section class="section mt-100 mb-100">
+        <div class="bg-magenta align-items-center d-flex justify-content-center" id="ecommerce_sitemap">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12">
+                        <h2 class="text-center" data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease">Sitemap</h2>
+                        <h5 class="text-center mt-20" data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease" data-aos-delay="200">NAVIGATION, HIERARCHY, SCOPE...</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid mt-100">
+            <div class="content" data-aos="zoom-in" data-aos-duration="3000" data-aos-easing="ease-in-out-cubic">
+                <figure class="org-chart cf">
+                    <div class="board">
+                        <ul class="columnOne">
+                            <li><span> <strong>Home</strong></span></li>
+                        </ul>
+                    </div>
+                    <ul class="departments">
+                        <li class="department"><span class="lvl-b"><strong>Products</strong></span>
+                            <ul>
+                                <li> <span> <strong>Product 1</strong> </span> </li>
+                                <li> <span><strong>Product 2</strong> </span> </li>
+                                <li> <span><strong>Product 3</strong> </span> </li>
+                            </ul>
+                        </li>
+                        <li class="department"><span class="lvl-b"><strong>Collections</strong></span>
+                            <ul>
+                                <li> <span> <strong>Collection 1</strong> </span> </li>
+                                <li> <span> <strong>Collection 2</strong> </span> </li>
+                                <li> <span> <strong>Collection 3</strong></span> </li>
+                            </ul>
+                        </li>
+                        <li class="department"><span class="lvl-b"><strong>Search</strong></span>
+                            <ul>
+                                <li> <span><strong>Search Details</strong> </span> </li>
+                            </ul>
+                        </li>
+                        <li class="department"><span class="lvl-b"><strong>Contact</strong></span>
+                            <ul>
+                                <li> <span> <strong>E-mail form</strong> </span> </li>
+                                <li> <span> <strong>Phone</strong> </span> </li>
+                                <li> <span> <strong>Social Media</strong> </span> </li>
+                                <li> <span> <strong>Chat</strong> </span> </li>
+                            </ul>
+                        </li>
+                        <li class="department"><span class="lvl-b"><strong>Help</strong></span>
+                            <ul>
+                                <li> <span> <strong>Returns</strong> </span> </li>
+                                <li> <span> <strong>Shipping Info</strong> </span> </li>
+                                <li> <span> <strong>Contact</strong> </span> </li>
+                            </ul>
+                        </li>
+                        <li class="department"><span class="lvl-b"><strong>Account</strong></span>
+                            <ul>
+                                <li> <span> <strong>Login</strong> </span> </li>
+                                <li> <span> <strong>Create Account</strong> </span> </li>
+                                <li> <span> <strong>Guest Checkout</strong> </span> </li>
+                            </ul>
+                        </li>
+                        <li class="department"><span class="lvl-b"><strong>Cart</strong></span>
+                            <ul>
+                                <li> <span> <strong>Checkout</strong> </span> </li>
+                                <li> <span> <strong>Guest Checkout</strong> </span> </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </figure>
+                <figure class="org-chart cf">
+                    <div class="board">
+                        <ul class="columnOne">
+                            <li> <span> <strong>Home</strong> </span></li>
+                        </ul>
+                    </div>
+                    <ul class="departments">
+                        <li class="department"><span class="lvl-b"><strong>About</strong></span> </li>
+                        <li class="department"><span class="lvl-b"><strong>Feedback</strong></span> </li>
+                        <li class="department"><span class="lvl-b"><strong>Privacy/Security</strong></span> </li>
+                        <li class="department"><span class="lvl-b"><strong>Terms of Use</strong></span> </li>
+                        <li class="department"><span class="lvl-b"><strong>Sitemap</strong></span> </li>
+                        <li class="department"><span class="lvl-b"><strong>404</strong></span> </li>
+                        <li class="department"><span class="lvl-b"><strong>Collaborate</strong></span> </li>
+                    </ul>
+                </figure>
+            </div>
+        </div>
+    </section>
+    <section class="section wireframe-bg mt-150" id="ecommerce_wireframes">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="card-deck justify-content-around">
+                    <div class="col-xl-4 col-lg-8 col-md-8 col-sm-12 pt-3 box-shadow" data-aos="zoom-in" data-aos-duration="2000" data-aos-easing="ease-in-out-cubic">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="card-title mt-20">Wireframes</h4>
+                                <p class="card-text">We stayed for a long time in this phase because it took a long time to collect the final text copy. I had to have the text ready before going to the prototype stage.</p>
+                                <p class="card-text">Then I came up with the final layout, navigation and user flows depending on the type of user that would visit the e-commerce store.</p>
+                                <p> Wireframing was done directly with Shopify Liquid on the Shopify platform.</p>
+                                <p class="card-text"> This is the wireframe example.</p><a href="https://gew7f68xdvf33bhv-26537820218.shopifypreview.com" target="_blank" class="btn btn-primary">Take a look</a> </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-8 col-md-8 col-sm-12 pt-3 mt-50 box-shadow jobs-cont" id="ecommerce_prototypes" data-aos="zoom-in" data-aos-duration="2000" data-aos-easing="ease-in-out-cubic" data-aos-delay="1000">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="card-title">Prototypes</h4>
+                                <p class="card-text">I collected and edited photo assets, implemented brand colors and incorporated style guide components.</p>
+                                <p class="card-text">Everything on the Web site was done from scratch, although we expected that Shopify would take care of the shopping and inventory capacity. That included creating the shopping cart because it didn’t work on mobile devices;
+                                    creating the search functionality because the Shopify template didn’t show results correctly; creating the product pages, etc. </p>
+                                <p>This is the prototype example.</p><a href="https://dw1vs8l2rkc3iqvk-26537820218.shopifypreview.com" target="_blank" class="btn btn-primary mb-20">Take a look</a> </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-around mt-100" id="ecommerce_final">
+                <div class="col-xl-5 col-md-6 col-sm-12 pt-3 box-shadow jobs-cont" data-aos="zoom-in" data-aos-duration="2000" data-aos-easing="ease-in-out-cubic">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="card-title">Final version</h4>
+                            <p class="card-text">We tested all the functionalities, especially shopping with a variety of payment methods. We tested all possible user shopping flows.</p>
+                            <p class="card-text">I implemented the SEO, page optimization, published the Web site, and handed over the user guide.</p><a href="https://tanjadesign.myshopify.com/" target="_blank" class="btn btn-primary mb-20">Enjoy</a> </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+        <!-- contact -->
+    <section class="section section-on-footer jobs-bg" data-background="illustrations/backgrounds/bg-dots.png" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-sm-12 mx-auto" data-aos="zoom-in" data-aos-duration="2000" data-aos-easing="ease-in-out-cubic">
+                    <div class="bg-white text-center p-5 contact contact-shadow">
+                        <h2 class="mt-30">Contact</h2>
+                        <!-- ----------------------------------------------- -->
+                        <div class="container jf-form text-left">
+                            <form data-licenseKey="JF-1Y0494370S908751M" name="jqueryform-008039" id="jqueryform-008039" action='admin.php' method='post' enctype='multipart/form-data' novalidate autocomplete="on">
+                                <input type="hidden" name="method" value="validateForm">
+                                <input type="hidden" id="serverValidationFields" name="serverValidationFields" value="">
+
+                                <div class="form-group f1 required" data-fid="f1">
+                                    <label class="control-label" for="f1">Your Name</label>
+
+                                    <input type="text" class="form-control" id="f1" name="f1" value="" maxlength="30" data-rule-required="true" data-rule-maxlength="30" data-rule-minlength="5" />
+
+                                </div>
+
+                                <div class="form-group f2 required" data-fid="f2">
+                                    <label class="control-label" for="f2">Email</label>
+
+                                    <input type="email" class="form-control" id="f2" name="f2" value="" data-rule-email="true" data-rule-required="true" />
+
+                                </div>
+
+                                <div class="form-group f4 " data-fid="f4">
+                                    <label class="control-label" for="f4">Phone</label>
+
+                                    <input type="tel" class="form-control" id="f4" name="f4" value="" placeholder="xxx-xxx-xxxx" data-rule-pattern="[0-9]{3,4}[ -.]*[0-9]{3,4}[ -.]*[0-9]{4}" data-msg-pattern="Invalid phone number" />
+
+                                </div>
+
+                                <div class="form-group f5 required" data-fid="f5">
+                                    <label class="control-label" for="f5">What job position are you hiring for?</label>
+
+                                    <input type="text" class="form-control" id="f5" name="f5" value="" data-rule-required="true" />
+
+                                </div>
+
+                                <div class="form-group f6 " data-fid="f6">
+                                    <label class="control-label" for="f6">Include the link for the job position please.</label>
+
+                                    <input type="url" class="form-control" id="f6" name="f6" value="" placeholder="https://" data-rule-url="true" />
+
+                                </div>
+
+
+
+
+                                <div class="form-group f3 " data-fid="f3">
+                                    <label class="control-label" for="f3">Tell me more</label>
+
+                                    <textarea class="form-control" id="f3" name="f3" rows="3"></textarea>
+
+                                </div>
+
+                                <div class="form-group submit f0 d-flex justify-content-center" data-fid="f0" style="position: relative;">
+                                    <label class="control-label sr-only " for="f0">Submit Button</label>
+
+                                    <div class="progress" style="display: none; z-index: -1; position: absolute;">
+                                        <div class="progress-bar progress-bar-striped active" role="progressbar" style="width:100%">
+                                        </div>
+                                    </div>
+
+                                    <button type="submit" class="btn btn-primary" style="z-index: 1;">
+								Submit
+							</button>
+
+                                </div>
+                                <div class="clearfix"></div>
+
+                                <div class="submit">
+                                    <p class="error bg-warning" style="display:none;">
+                                        Please check the required fields. </p>
+                                </div>
+
+                                <div class="clearfix"></div>
+
+                            </form>
+
+                        </div>
+
+                        <div class="container jf-thankyou" style="display:none;" data-redirect="" data-seconds="10">
+                            <p>Thank you very much for sending your message! I'll get back with you as soon as I can. </p>
+                            <p>Take care and stay safe!</p>
+                        </div>
+                        <!-- ----------------------------------------------- -->
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- /contact -->
+
+    <!-- footer -->
+    <footer class="bg-footer footer-section">
+        <div class="section">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-lg-4 col-md-12 col-sm-12">
+                        <h5 class="text-light"><a class="nav-link" href="index.html">Home</a></h5>
+                    </div>
+                    <div class="col-lg-4 col-md-12 col-sm-12">
+                        <h5 class="text-light"><a class="nav-link" href="project1.html">E-commerce shop</a></h5>
+                    </div>
+                    <div class="col-lg-4 col-md-12 col-sm-12">
+                        <h5 class="text-light"><a class="nav-link" href="#contact">Contact</a></h5>
+                    </div>
+
+                </div>
+            
+            </div>
+        </div>
+        <div class="text-center py-5">
+            <p class="mb-0 text-light">Copyright © <a href="https://tanjamedic.com">Tanja Medic</a></p>
+        </div>
+    </footer>
+    <!-- navigation to top -->
+    <div class="text-center bg-back"><a href="#page-top"><span class="fas fa-chevron-up fa-3x"></span></a></div>
+    <!-- /footer -->
+    <!-- JQuery Script -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <!-- Popper Script -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <!-- Boostrap Script -->
+    <script>
+        window.jQuery || document.write('<script src="../assets/js/vendor/jquery.slim.min.js"><\/script>')
+    </script>
+    <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/e4b93c33f0.js" crossorigin="anonymous"></script>
+    <!-- Chart Core Script -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.bundle.min.js"></script>
+    <!-- Chart Data Scripts -->
+    <script>
+        var ctx=document.getElementById("myGenderChart").getContext("2d"),myGenderChart=new Chart(ctx,{type:"pie",data:{labels:["% Men","% Women"],datasets:[{label:"Gender %",data:[40,60],backgroundColor:["rgba(255, 99, 132, 0.2)","rgba(54, 162, 235, 0.2)"],borderColor:["rgba(255, 99, 132, 1)","rgba(54, 162, 235, 1)"],borderWidth:1}]},options:{scales:{xyAxes:[{gridlines:{display:!1}}]},legend:{labels:{fontColor:"black",fontFamily:"PT Sans",fontSize:20}}}}),myRaceChart=(ctx=document.getElementById("myRaceChart").getContext("2d"),new Chart(ctx,{type:"pie",data:{labels:["% Black","% White","% Asian"],datasets:[{label:"Race %",data:[40,40,20],backgroundColor:["rgba(255, 99, 132, 0.2)","rgba(54, 162, 235, 0.2)","rgba(255, 206, 86, 0.2)"],borderColor:["rgba(255, 99, 132, 1)","rgba(54, 162, 235, 1)","rgba(255, 206, 86, 1)"],borderWidth:1}]},options:{scales:{xyAxes:[{gridlines:{display:!1}}]},legend:{labels:{fontColor:"black",fontFamily:"PT Sans",fontSize:20}}}})),myEthnicityChart=(ctx=document.getElementById("myEthnicityChart").getContext("2d"),new Chart(ctx,{type:"pie",data:{labels:["% Immigrants","% Refugees","% 2nd Gen","% US born"],datasets:[{label:"Ethnicity %",data:[10,40,5,45],backgroundColor:["rgba(255, 99, 132, 0.2)","rgba(54, 162, 235, 0.2)","rgba(255, 206, 86, 0.2)","rgba(75, 192, 192, 0.2)"],borderColor:["rgba(255, 99, 132, 1)","rgba(54, 162, 235, 1)","rgba(255, 206, 86, 1)","rgba(75, 192, 192, 1)"],borderWidth:1}]},options:{scales:{xyAxes:[{gridlines:{display:!1}}]},legend:{labels:{fontColor:"black",fontFamily:"PT Sans",fontSize:20}}}})),myAgeChart=(ctx=document.getElementById("myAgeChart").getContext("2d"),new Chart(ctx,{type:"bar",data:{labels:["Participation"],datasets:[{label:"No (0-16 age)",data:[16],backgroundColor:"rgba(255, 99, 132, 0.2)"},{label:"Yes (16-60 age)",data:[44],backgroundColor:"rgba(54, 162, 235, 0.2)"}]},options:{scales:{xAxes:[{stacked:!0,ticks:{fontColor:"black",fontFamily:"PT Sans",fontSize:20}}],yAxes:[{stacked:!0,ticks:{fontColor:"black",fontFamily:"PT Sans",fontSize:18}}]},legend:{labels:{fontColor:"black",fontFamily:"PT Sans",fontSize:20}}}})),myMotivationChart=(ctx=document.getElementById("myMotivationChart").getContext("2d"),new Chart(ctx,{type:"pie",data:{labels:["% Customers","% Health","% Environment"],datasets:[{label:"Motivation %",data:[60,25,15],backgroundColor:["rgba(255, 99, 132, 0.2)","rgba(54, 162, 235, 0.2)","rgba(255, 206, 86, 0.2)"],borderColor:["rgba(255, 99, 132, 1)","rgba(54, 162, 235, 1)","rgba(255, 206, 86, 1)"],borderWidth:1}]},options:{scales:{xyAxes:[{gridlines:{display:!1}}]},legend:{labels:{fontColor:"black",fontFamily:"PT Sans",fontSize:20}}}})),myTechChart=(ctx=document.getElementById("myTechChart").getContext("2d"),new Chart(ctx,{type:"horizontalBar",data:{labels:["Savviness","Frustration","Uselessnes"],datasets:[{label:"Actual",backgroundColor:"rgba(255, 99, 132, 0.2)",borderColor:"rgba(255, 99, 132, 1)",data:[5,9,2],borderWidth:1},{label:"Maximum",backgroundColor:"rgba(54, 162, 235, 0.2)",borderColor:"rgba(54, 162, 235, 1)",data:[10,10,10],borderWidth:1}]},options:{legend:{labels:{fontColor:"black",fontFamily:"PT Sans",fontSize:20}},scales:{xAxes:[{ticks:{max:10,min:0,stepSize:1,fontColor:"black",fontFamily:"PT Sans",fontSize:20}}],yAxes:[{ticks:{fontColor:"black",fontFamily:"PT Sans",fontSize:18}}]}}})),myMotivationChart2=(ctx=document.getElementById("myMotivationChart2").getContext("2d"),new Chart(ctx,{type:"pie",data:{labels:["% Fragrance","% Money","% Time"],datasets:[{label:"Motivation %",data:[60,15,25],backgroundColor:["rgba(255, 99, 132, 0.2)","rgba(54, 162, 235, 0.2)","rgba(255, 206, 86, 0.2)"],borderColor:["rgba(255, 99, 132, 1)","rgba(54, 162, 235, 1)","rgba(255, 206, 86, 1)"],borderWidth:1}]},options:{scales:{xyAxes:[{gridlines:{display:!1}}]},legend:{labels:{fontColor:"black",fontFamily:"PT Sans",fontSize:20}}}})),myTechChart2=(ctx=document.getElementById("myTechChart2").getContext("2d"),new Chart(ctx,{type:"horizontalBar",data:{labels:["Savviness","Frustration","Uselessnes"],datasets:[{label:"Actual",backgroundColor:"rgba(255, 99, 132, 0.2)",borderColor:"rgba(255, 99, 132, 1)",data:[8,7,10],borderWidth:1},{label:"Maximum",backgroundColor:"rgba(54, 162, 235, 0.2)",borderColor:"rgba(54, 162, 235, 1)",data:[10,10,10],borderWidth:1}]},options:{legend:{labels:{fontColor:"black",fontFamily:"PT Sans",fontSize:20}},scales:{xAxes:[{ticks:{max:10,min:0,stepSize:1,fontColor:"black",fontFamily:"PT Sans",fontSize:20}}],yAxes:[{ticks:{fontColor:"black",fontFamily:"PT Sans",fontSize:18}}]}}})),myMotivationChart3=(ctx=document.getElementById("myMotivationChart3").getContext("2d"),new Chart(ctx,{type:"pie",data:{labels:["% Time","% Security","% Home Comfort"],datasets:[{label:"Motivation %",data:[50,30,20],backgroundColor:["rgba(255, 99, 132, 0.2)","rgba(54, 162, 235, 0.2)","rgba(255, 206, 86, 0.2)"],borderColor:["rgba(255, 99, 132, 1)","rgba(54, 162, 235, 1)","rgba(255, 206, 86, 1)"],borderWidth:1}]},options:{scales:{xyAxes:[{gridlines:{display:!1}}]},legend:{labels:{fontColor:"black",fontFamily:"PT Sans",fontSize:20}}}})),myTechChart3=(ctx=document.getElementById("myTechChart3").getContext("2d"),new Chart(ctx,{type:"horizontalBar",data:{labels:["Savviness","Frustration","Uselessnes"],datasets:[{label:"Actual",backgroundColor:"rgba(255, 99, 132, 0.2)",borderColor:"rgba(255, 99, 132, 1)",data:[7,9,9],borderWidth:1},{label:"Maximum",backgroundColor:"rgba(54, 162, 235, 0.2)",borderColor:"rgba(54, 162, 235, 1)",data:[10,10,10],borderWidth:1}]},options:{legend:{labels:{fontColor:"black",fontFamily:"PT Sans",fontSize:20}},scales:{xAxes:[{ticks:{max:10,min:0,stepSize:1,fontColor:"black",fontFamily:"PT Sans",fontSize:20}}],yAxes:[{ticks:{fontColor:"black",fontFamily:"PT Sans",fontSize:18}}]}}}));
+    </script>
+    <!-- AOS Script -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            once: true, // whether animation should happen only once - while scrolling down
+        });
+    </script>
+    <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.13.1/jquery.validate.min.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.13.1/additional-methods.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.0/jquery.scrollTo.min.js"></script>
+    <script src="vendor.js"></script>
+    <script src="jqueryform.com.min.js?ver=v3.0.3&id=jqueryform-008039"></script>
+    <script type="text/javascript">
+        // start jqueryform initialization
+        // --------------------------------
+        JF.init('#' + $('.jf-form > form:first-child').attr('id'));
+    </script>
+</body>
+
+</html>

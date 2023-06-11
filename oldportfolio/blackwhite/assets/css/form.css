@@ -1,0 +1,13 @@
+.input.gsc-input, .gsc-input-box, .gsc-input-box-hover, .gsc-input-box-focus {
+    border-radius: 10px;
+}
+
+.gsc-search-button-v2, .gsc-search-button-v2:hover, .gsc-search-button-v2:focus {
+
+    border-radius: 10px;
+    height: 32px;
+    border-color: #000;
+    background-color: #000;
+    
+}
+

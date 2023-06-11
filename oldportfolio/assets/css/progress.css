@@ -1,0 +1,29 @@
+.shape{border-style:solid;border-width:0 100px 70px 0;float:right;height:0px;width:0px;-ms-transform:rotate(360deg);-o-transform:rotate(360deg);-webkit-transform:rotate(360deg);transform:rotate(360deg);}
+.offer{background:#fff;border:1px solid #ddd;box-shadow:0 10px 20px rgba(0, 0, 0, 0.2);margin:15px 0;overflow:hidden;}
+.offer:hover{-webkit-transform:scale(1.1);-moz-transform:scale(1.1);-ms-transform:scale(1.1);-o-transform:scale(1.1);transform:rotate scale(1.1);-webkit-transition:all 0.4s ease-in-out;-moz-transition:all 0.4s ease-in-out;-o-transition:all 0.4s ease-in-out;transition:all 0.4s ease-in-out;}
+.shape{border-color:rgba(255,255,255,0) #d9534f rgba(255,255,255,0) rgba(255,255,255,0);}
+.offer-radius{border-radius:15px;}
+.offer-danger{border-color:#d9534f;}
+.offer-danger .shape{border-color:transparent #d9534f transparent transparent;}
+.offer-success{border-color:#5cb85c;}
+.offer-success .shape{border-color:transparent #5cb85c transparent transparent;}
+.offer-default{border-color:#F0667D;border-radius:10px;}
+.offer-default .shape{border-color:transparent #F0667D transparent transparent;}
+.offer-primary{border-color:#428bca;}
+.offer-primary .shape{border-color:transparent #428bca transparent transparent;}
+.offer-info{border-color:#289FC3;}
+.offer-info .shape{border-color:transparent #289FC3 transparent transparent;}
+.offer-warning{border-color:#f0ad4e;}
+.offer-warning .shape{border-color:transparent #f0ad4e transparent transparent;}
+.shape-text{color:#fff;font-size:12px;font-weight:bold;position:relative;right:-65px;top:1px;white-space:nowrap;-ms-transform:rotate(30deg);-o-transform:rotate(360deg);-webkit-transform:rotate(30deg);transform:rotate(30deg);}
+.offer-content{padding:0 20px 10px;}
+.rose{color:#F0667D;text-decoration:none;}
+.label-default{background-color:#F0667D;}
+.progress-bar{background-color:#F0667D;}
+.progress-bar.progress-bar-default{height:25px;}
+.lead{color:#778492;font-size:22px;}
+.percent{font-size:18px;line-height:2.2;}
+.progress-bar-default{-webkit-appearance:none;appearance:none;width:250px;height:50px;}
+.progress{background:rgba(245, 245, 245, 1);border:0px solid rgba(245, 245, 245, 1);border-radius:4px;height:32px;}
+a:hover{text-decoration:none;}
+a:focus{text-decoration:none;}
